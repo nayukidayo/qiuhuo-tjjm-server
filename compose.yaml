@@ -1,0 +1,8 @@
+services:
+  app:
+    restart: always
+    image: qiuhuo-tjjm-server:1.0
+    ports:
+      - "50007:50007"
+    volumes:
+      - ./log:/app/log
